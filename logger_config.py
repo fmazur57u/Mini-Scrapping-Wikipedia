@@ -19,10 +19,3 @@ def logger():
     logger.addHandler(console_handler)
     logger.addHandler(file_handler)
     return logger
-
-
-log = logger()
-
-logging.debug("Test pour la console")
-logging.info("Test pour l'info")
-logging.warning("Test pour lwarning")
