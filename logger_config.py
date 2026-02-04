@@ -1,7 +1,7 @@
 import logging
 
 
-def logger():
+def logger() -> logging.Logger:
     logger = logging.getLogger()
     logger.setLevel(logging.DEBUG)
     fmt = logging.Formatter("%(name)s - %(levelname)s - %(message)s")
